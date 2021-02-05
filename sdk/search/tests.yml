@@ -6,6 +6,7 @@ extends:
     ServiceDirectory: search
     TimeoutInMinutes: 120
     MaxParallel: 2
-    UnsupportedClouds: Canary
+    UnsupportedClouds: 'Canary'
+    SupportedClouds: 'Public,China'
     EnvVars:
       AZURE_SEARCH_TEST_MODE: Live
